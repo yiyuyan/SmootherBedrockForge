@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.smr.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "smr.refmap.json",
+  "mixins": [
+    "OverWorldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
